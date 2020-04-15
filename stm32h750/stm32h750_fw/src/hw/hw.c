@@ -10,4 +10,8 @@
 void hwInit(void)
 {
 	bspInit();
+
+	delayInit();
+	millisInit();
+	ledInit();
 }

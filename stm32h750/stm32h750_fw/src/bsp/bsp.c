@@ -14,6 +14,7 @@ void bspInit(void)
 
 
   __HAL_RCC_GPIOH_CLK_ENABLE();
+  __HAL_RCC_GPIOC_CLK_ENABLE();
 }
 
 

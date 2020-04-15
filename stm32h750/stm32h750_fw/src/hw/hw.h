@@ -10,6 +10,10 @@ extern "C"{
 
 #include "hw_def.h"
 
+#include "delay.h"
+#include "millis.h"
+#include "led.h"
+
 void hwInit(void);
 
 #ifdef __cplusplus
